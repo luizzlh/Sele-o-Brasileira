@@ -1,0 +1,98 @@
+:root {
+    --amarelo: #EAC100;
+    --azul: #10316B;
+    --verde: #0B8457;
+    --texto: #DEE1EC;
+}
+.brasil1970 {
+    max-width: 1200px;
+    margin: auto;
+}
+#brasil1970 {
+    position: relative;
+    padding-top: 7rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 2rem;
+    width: 100%;
+}
+.imagemEscalacaoBrasil1970{
+    width: 38rem;
+    border: 5px solid var(--texto);
+    transition: all 0.5s;
+}
+.imagemEscalacaoBrasil1970:hover{
+    box-shadow: 0px 0px 22px 5px rgba(0,0,0,0.75);
+    transform: scale(1.02);
+}
+.conteudo1970{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    gap: 5px;
+}
+.tituloConteudo1970{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: var(--texto);
+    font-size: 26px;
+}
+.textoConteudo1970{
+    font-family: "Poppins", sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 16px;
+    color: var(--texto);
+}
+.bg1970{
+    max-width: 100%;
+}
+.bloco3{
+    max-width: 1200px;
+    margin: auto;
+    padding: 5rem 2rem;
+    display: flex;
+    flex-direction: row;
+    gap: 9rem;
+    justify-content: center;
+    align-items: center;
+}
+.card1970{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    border-top: 5px solid var(--texto);
+    border-left: 5px solid var(--texto);
+    border-right: 5px solid var(--texto);
+    border-radius: 5px;
+    transition: 0.5s all;
+}
+.card1970:hover{
+    box-shadow: 0px 0px 22px 5px rgba(255,255,255,0.85);
+    transform: scale(1.02);
+}
+.card1970 img{
+    width: 300px;
+}
+.card1970 span{
+    border-right: 0px solid var(--texto);
+    border-left: 0px solid var(--texto);
+    border-bottom: 5px solid var(--texto);
+    padding: 10px;
+    color: var(--texto);
+    font-family: "Poppins", sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 14px;
+    text-align: justify;
+}
+#trofeu1970{
+    width: 250px;
+}
+.trofeuJulesRimet1970{
+    width: 250px !important;
+}

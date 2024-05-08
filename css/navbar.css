@@ -1,0 +1,126 @@
+:root{
+    --amarelo: #EAC100;
+    --azul: #10316B;
+    --verde: #0B8457;
+    --texto: #DEE1EC;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: var(--azul);
+}
+.bgNav{
+    width: 100%;
+    margin-top: 0px;
+    background-color: var(--amarelo);
+    position: fixed;
+    overflow: hidden;
+    z-index: 1000;
+}
+#itensCabecalho{
+    max-width: 1200px;
+    height: 6rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+#cbfLogo{
+    width: 60px;
+}
+#navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    color: var(--verde);
+    align-items: center;
+    gap: 40px;
+}
+nav div{
+    width: 90px;
+}
+.link a{
+    position: relative;
+    padding-bottom: 0.75rem;
+
+}
+.link a::after{
+    content: "";
+    position: absolute;
+    height: 3px;
+    width: 0;
+    bottom: 0;
+    left: 0;
+    background-color: var(--verde);
+    transition: all 0.3s ease;
+}
+.link a:hover::after{
+    width: 75%;
+}
+.estrelaNav{
+    width: 15px;
+}
+#primeiraEstrela1958{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#segundaEstrela1962{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+}
+#estrelas1962{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+#terceiraEstrela1970{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+}
+#estrelas1970{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#quartaEstrela1994{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#estrelas1994{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#quintaEstrela2002{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#estrelas2002{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1px;
+}
